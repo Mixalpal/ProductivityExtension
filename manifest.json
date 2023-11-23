@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Timely",
+    "version": "0.1",
+  
+    "description": "Allows you to spend time on the internet more productively",
+    "homepage_url": "https://github.com/Mixalpal/ProductivityExtension",
+
+    "icons": {
+        "48": "icons/logo_48.png",
+        "96": "icons/logo_96.png"
+    },
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {
+        "default_icon": "icons/logo_48.png",
+        "default_title": "Timely",
+        "default_popup": "popup/popup.html"
+    }
+  }
+  
